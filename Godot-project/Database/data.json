@@ -1,0 +1,402 @@
+﻿{
+    "1": {
+        "Ingles": "ACCESSORIES",
+        "Traduccion": "ACCESORIOS"
+    },
+    "2": {
+        "Ingles": "ENABLE",
+        "Traduccion": "ACTIVAR"
+    },
+    "3":  {
+            "Ingles": "UPDATE",
+            "Traduccion": "ACTUALIZAR"
+        },
+    "4": {
+            "Ingles": "WIRELESS ADAPTERS",
+            "Traduccion": "ADAPTADOR SIN CABLE"
+        },
+    "5": {
+            "Ingles": "WEBMASTER",
+            "Traduccion": "ADMINISTRADOR DE UNA WEB"
+        },
+    "6": {
+            "Ingles": "RANDOM",
+            "Traduccion": "ALEATORIO"
+        },
+    "7":{
+            "Ingles": "MOUSE PADS",
+            "Traduccion": "ALFOMBRILLA PARA EL RATÓN"
+        },
+    "8" :{
+            "Ingles": "SPEAKER",
+            "Traduccion": "ALTAVOCES"
+        },
+    "9":{
+            "Ingles": "BROADBAND",
+            "Traduccion": "ANCHO DE BANDA"
+        },
+    "10":{
+            "Ingles": "BANNER",
+            "Traduccion": "ANUNCIO"
+        },
+    "11":{
+            "Ingles": "APPLICATION",
+            "Traduccion": "APLICACIÓN"
+        },
+    "12": {
+            "Ingles": "NICKNAME",
+            "Traduccion": "APODO"
+        },
+    "13":{
+            "Ingles": "SUPPORT",
+            "Traduccion": "APOYAR"
+        },
+    "14":{
+            "Ingles": "FILE",
+            "Traduccion": "ARCHIVO"
+        },
+    "15":{
+            "Ingles": "BOOT",
+            "Traduccion": "ARRANQUE"
+        },
+    "16":{
+            "Ingles": "SUBJECT",
+            "Traduccion": "ASUNTO"
+        },
+    "17":{
+            "Ingles": "SHORTCUT",
+            "Traduccion": "ATAJO"
+        },
+    "18":{
+            "Ingles": "BAND WIDTH",
+            "Traduccion": "BANDA ANCHA."
+        },
+    "19":{
+            "Ingles": "DATABASE",
+            "Traduccion": "BASE DE DATOS"
+        },
+    "20":{
+            "Ingles": "BATTERY",
+            "Traduccion": "BATERÍA"
+        },
+    "21":{
+            "Ingles": "LITHIUM BATTERY",
+            "Traduccion": "BATERÍA DE LITIO"
+        },
+    "22":{
+            "Ingles": "BAUD",
+            "Traduccion": "BAUDIO"
+        },
+    "23":{
+            "Ingles": "LAPTOP BAGS",
+            "Traduccion": "BOLSAS PARA PORTÁTILES"
+        },
+    "24":{
+            "Ingles": "MAIL BOMBING",
+            "Traduccion": "BOMBARDEO POSTAL"
+        },
+    "25":{
+            "Ingles": "CLEAR",
+            "Traduccion": "BORRAR"
+        },
+    "26":{
+            "Ingles": "DELETE",
+            "Traduccion": "BORRAR"
+        },
+    "27":{
+            "Ingles": "ERASE",
+            "Traduccion": "BORRAR"
+        },
+    "28":{
+            "Ingles": "HOAX",
+            "Traduccion": "BULO"
+        },
+    "29":{
+            "Ingles": "BEEPER",
+            "Traduccion": "BUSCA"
+        },
+    "30":{
+            "Ingles": "MAILBOX",
+            "Traduccion": "BUZÓN DE CORREO"
+        },
+    "31":{
+            "Ingles": "RATING",
+            "Traduccion": "CALIFICACIÓN"
+        },
+    "32":{
+            "Ingles": "WEBCAM",
+            "Traduccion": "CÁMARA WEB"
+        },
+    "33":{
+            "Ingles": "FIELD",
+            "Traduccion": "CAMPO"
+        },
+    "34":{
+            "Ingles": "SCREENSHOT, SNAPSHOT",
+            "Traduccion": "CAPTURA DE PANTALLA"
+        },
+    "35":{
+            "Ingles": "SKIN",
+            "Traduccion": "CARATULA, PIEL"
+        },
+    "36":{
+            "Ingles": "FOLDER",
+            "Traduccion": "CARPETA"
+        },
+    "37":{
+            "Ingles": "SHUTDOWN",
+            "Traduccion": "CERRAR"
+        },
+    "38":{
+            "Ingles": "CYBERCULTURE",
+            "Traduccion": "CIBERCULTURA"
+        },
+    "39":{
+            "Ingles": "NEWBIE",
+            "Traduccion": "CIBERNOVATO"
+        },
+    "40":{
+            "Ingles": "CYBERSEX",
+            "Traduccion": "CIBERSEXO"
+        },
+    "41":{
+            "Ingles": "INTEGRATED CIRCUITS",
+            "Traduccion": "CIRCUITOS INTEGRADOS"
+        },
+    "42":{
+            "Ingles": "KEY",
+            "Traduccion": "CLAVE"
+        },
+    "43":{
+            "Ingles": "CLIENT",
+            "Traduccion": "CLIENTE"
+        },
+    "44":{
+            "Ingles": "CLICK",
+            "Traduccion": "CLIQUEAR, PINCHAR."
+        },
+    "45":{
+            "Ingles": "ENCODE",
+            "Traduccion": "CODIFICA"
+        },
+    "46":{
+            "Ingles": "CODEC",
+            "Traduccion": "CÓDIGOS"
+        },
+    "47":{
+            "Ingles": "QUOTE",
+            "Traduccion": "COMILLA, CITAR"
+        },
+    "48":{
+            "Ingles": "COMPILER",
+            "Traduccion": "COMPILADOR"
+        },
+    "49":{
+            "Ingles": "COMPILE",
+            "Traduccion": "COMPILAR"
+        },
+    "50":{
+            "Ingles": "WIDGET",
+            "Traduccion": "COMPONENTE"
+        },
+    "51":{
+            "Ingles": "HARDWARE",
+            "Traduccion": "COMPONENTES FÍSICOS"
+        },
+    "52":{
+            "Ingles": "COMPRESS",
+            "Traduccion": "COMPRIMIR"
+        },
+    "53":{
+            "Ingles": "ON LINE",
+            "Traduccion": "CONECTADO"
+        },
+    "54":{
+            "Ingles": "CONNECT",
+            "Traduccion": "CONECTAR"
+        },
+    "55":{
+            "Ingles": "TIP",
+            "Traduccion": "CONSEJO"
+        },
+    "56":{
+            "Ingles": "CONTEXT",
+            "Traduccion": "CONTEXTO"
+        },
+    "57":{
+            "Ingles": "PASSWORD",
+            "Traduccion": "CONTRASEÑA"
+        },
+    "58":{
+            "Ingles": "CHAT",
+            "Traduccion": "CONVERSACIÓN"
+        },
+    "59":{
+            "Ingles": "TALK",
+            "Traduccion": "CONVERSACIÓN"
+        },
+    "60":{
+            "Ingles": "CONVERTER",
+            "Traduccion": "CONVERTIDOR"
+        },
+    "61":{
+            "Ingles": "BACKUP",
+            "Traduccion": "COPIA RESPALDO"
+        },
+    "62":{
+            "Ingles": "MAIL",
+            "Traduccion": "CORREO"
+        },
+    "63":{
+            "Ingles": "ANONYMOUS MAIL",
+            "Traduccion": "CORREO ANÓNIMO"
+        },
+    "64":{
+            "Ingles": "SPAM",
+            "Traduccion": "CORREO BASURA"
+        },
+    "65":{
+            "Ingles": "SPAM",
+            "Traduccion": "CORREO NO SOLICITADO"
+        },
+    "66":{
+            "Ingles": "FIREWALL",
+            "Traduccion": "CORTAFUEGOS"
+        },
+    "67":{
+            "Ingles": "CUT AND PASTE",
+            "Traduccion": "CORTAR Y PEGAR"
+        },
+    "68":{
+            "Ingles": "DATUM",
+            "Traduccion": "DATO"
+        },
+    "69":{
+            "Ingles": "DATA",
+            "Traduccion": "DATOS"
+        },
+    "70":{
+            "Ingles": "SPELL",
+            "Traduccion": "DELETREAR"
+        },
+    "71":{
+            "Ingles": "DELAY",
+            "Traduccion": "DEMORA"
+        },
+    "72":{
+            "Ingles": "DEMO",
+            "Traduccion": "DEMOSTRACIÓN"
+        },
+    "73":{
+            "Ingles": "COPYRIGHT",
+            "Traduccion": "DERECHO DE COPIA"
+        },
+    "74":{
+            "Ingles": "COPYLEFT",
+            "Traduccion": "DERECHO DE COPIA"
+        },
+    "75":{
+            "Ingles": "DEVELOPER",
+            "Traduccion": "DESARROLLADOR"
+        },
+    "76":{
+            "Ingles": "DOWNLOAD",
+            "Traduccion": "DESCARGAR ARCHIVOS"
+        },
+    "77":{
+            "Ingles": "DECODER",
+            "Traduccion": "DESCODIFICADOR, DECODIFICADO"
+        },
+    "78":{
+            "Ingles": "OFF LINE",
+            "Traduccion": "DESCONECTADO"
+        },
+    "79":{
+            "Ingles": "SCANNER",
+            "Traduccion": "DIGITALIZADOR"
+        },
+    "80":{
+            "Ingles": "ADDRESS",
+            "Traduccion": "DIRECCIÓN"
+        },
+    "81":{
+            "Ingles": "INTERNET ADDRESS",
+            "Traduccion": "DIRECCIÓN DE INTERNET"
+        },
+    "82":{
+            "Ingles": "DISK",
+            "Traduccion": "DISCO"
+        },
+    "83":{
+            "Ingles": "HARD DISK",
+            "Traduccion": "DISCO DURO"
+        },
+    "84":{
+            "Ingles": "FEATURE",
+            "Traduccion": "DISPOSITIVO"
+        },
+    "85":{
+            "Ingles": "FLOPPY DISK",
+            "Traduccion": "DISQUETE"
+        },
+    "86":{
+            "Ingles": "SPLITTER",
+            "Traduccion": "DIVISOR"
+        },
+    "87":{
+            "Ingles": "DOCUMENT",
+            "Traduccion": "DOCUMENTO"
+        },
+    "88":{
+            "Ingles": "ATTACHMENT",
+            "Traduccion": "DOCUMENTO ADJUNTO"
+        },
+    "89":{
+            "Ingles": "EXECUTE",
+            "Traduccion": "EJECUTAR"
+        },
+    "90":{
+            "Ingles": "ITEM",
+            "Traduccion": "ELEMENTO"
+        },
+    "91":{
+            "Ingles": "REALTIME",
+            "Traduccion": "EN DIRECTO"
+        },
+    "92":{
+            "Ingles": "PLUG AND PLAY",
+            "Traduccion": "ENCHUFAR Y FUNCIONAMIENTO RÁPIDO"
+        },
+    "93":{
+            "Ingles": "ROUTER",
+            "Traduccion": "ENRUTADOR"
+        },
+    "94":{
+            "Ingles": "ASSEMBLER",
+            "Traduccion": "ENSAMBLADOR"
+        },
+    "95":{
+            "Ingles": "POSTING",
+            "Traduccion": "ENVIAR MENSAJE A UN GRUPO"
+        },
+    "96":{
+            "Ingles": "BUG",
+            "Traduccion": "ERROR"
+        },
+    "97":{
+            "Ingles": "MISTAKE",
+            "Traduccion": "ERROR"
+        },
+    "98":{
+            "Ingles": "TAG",
+            "Traduccion": "ETIQUETA"
+        },
+    "99":{
+            "Ingles": "RIPPING",
+            "Traduccion": "EXTRAER O DUPLICAR DATOS DE AUDIO"
+        },
+    "100":{
+            "Ingles": "OPTICAL FIBER",
+            "Traduccion": "FIBRA ÓPTICA"
+        }
+}

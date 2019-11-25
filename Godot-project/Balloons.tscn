@@ -1,0 +1,105 @@
+[gd_scene load_steps=13 format=2]
+
+[ext_resource path="res://Balloons.gd" type="Script" id=1]
+[ext_resource path="res://Imagenes/sccpre.cat-orange-balloons-png-5227767.png" type="Texture" id=2]
+[ext_resource path="res://Poppins-Medium.ttf" type="DynamicFontData" id=3]
+[ext_resource path="res://Imagenes/vippng.com-balloon-png-400037.png" type="Texture" id=4]
+
+[sub_resource type="CircleShape2D" id=1]
+radius = 69.8777
+
+[sub_resource type="CircleShape2D" id=2]
+radius = 68.5938
+
+[sub_resource type="SpriteFrames" id=3]
+animations = [ {
+"frames": [ ExtResource( 2 ) ],
+"loop": true,
+"name": "naranja",
+"speed": 5.0
+} ]
+
+[sub_resource type="DynamicFont" id=4]
+size = 80
+font_data = ExtResource( 3 )
+
+[sub_resource type="CircleShape2D" id=5]
+radius = 300.291
+
+[sub_resource type="SpriteFrames" id=6]
+animations = [ {
+"frames": [ ExtResource( 4 ) ],
+"loop": true,
+"name": "azul",
+"speed": 5.0
+} ]
+
+[sub_resource type="DynamicFont" id=7]
+size = 90
+font_data = ExtResource( 3 )
+
+[sub_resource type="CircleShape2D" id=8]
+radius = 396.596
+
+[node name="Balloons" type="RigidBody2D"]
+gravity_scale = 0.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_horizontal_guides_": [  ]
+}
+
+[node name="CollisionShapeEN" type="CollisionShape2D" parent="."]
+position = Vector2( 492.849, 159.738 )
+shape = SubResource( 1 )
+
+[node name="CollisionShapeES" type="CollisionShape2D" parent="."]
+position = Vector2( 142.205, 146.101 )
+shape = SubResource( 2 )
+
+[node name="AnimatedSpriteES" type="AnimatedSprite" parent="."]
+position = Vector2( 144.154, 156.816 )
+scale = Vector2( 0.21835, 0.178003 )
+frames = SubResource( 3 )
+animation = "naranja"
+
+[node name="LabelES" type="Label" parent="AnimatedSpriteES"]
+margin_left = -209.0
+margin_top = -313.0
+margin_right = 190.0
+margin_bottom = 120.0
+custom_fonts/font = SubResource( 4 )
+align = 1
+valign = 1
+autowrap = true
+
+[node name="Area2DES" type="Area2D" parent="AnimatedSpriteES"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="AnimatedSpriteES/Area2DES"]
+position = Vector2( 7.46051, -54.9095 )
+shape = SubResource( 5 )
+
+[node name="AnimatedSpriteEN" type="AnimatedSprite" parent="."]
+position = Vector2( 494.797, 167.53 )
+scale = Vector2( 0.17767, 0.141794 )
+frames = SubResource( 6 )
+animation = "azul"
+
+[node name="LabelEN" type="Label" parent="AnimatedSpriteEN"]
+margin_left = -287.0
+margin_top = -344.0
+margin_right = 266.0
+margin_bottom = 254.0
+custom_fonts/font = SubResource( 7 )
+align = 1
+valign = 1
+autowrap = true
+
+[node name="Area2DEN" type="Area2D" parent="AnimatedSpriteEN"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="AnimatedSpriteEN/Area2DEN"]
+position = Vector2( -9.1687, -34.4657 )
+shape = SubResource( 8 )
+
+[connection signal="draw" from="." to="." method="_on_Balloons_draw"]
+[connection signal="input_event" from="AnimatedSpriteES/Area2DES" to="." method="_on_Area2DES_input_event"]
+[connection signal="input_event" from="AnimatedSpriteEN/Area2DEN" to="." method="_on_Area2DEN_input_event"]
