@@ -1,19 +1,25 @@
-[gd_scene load_steps=13 format=2]
+[gd_scene load_steps=14 format=2]
 
 [ext_resource path="res://Balloons.gd" type="Script" id=1]
-[ext_resource path="res://Imagenes/sccpre.cat-orange-balloons-png-5227767.png" type="Texture" id=2]
-[ext_resource path="res://Poppins-Medium.ttf" type="DynamicFontData" id=3]
-[ext_resource path="res://Imagenes/vippng.com-balloon-png-400037.png" type="Texture" id=4]
+[ext_resource path="res://Imagenes/red-removebg-preview.png" type="Texture" id=2]
+[ext_resource path="res://Imagenes/sccpre.cat-orange-balloons-png-5227767.png" type="Texture" id=3]
+[ext_resource path="res://Poppins-Medium.ttf" type="DynamicFontData" id=4]
+[ext_resource path="res://Imagenes/vippng.com-balloon-png-400037.png" type="Texture" id=5]
 
 [sub_resource type="CircleShape2D" id=1]
-radius = 69.8777
+radius = 66.9969
 
 [sub_resource type="CircleShape2D" id=2]
-radius = 68.5938
+radius = 63.1215
 
 [sub_resource type="SpriteFrames" id=3]
 animations = [ {
 "frames": [ ExtResource( 2 ) ],
+"loop": true,
+"name": "rojo",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 3 ) ],
 "loop": true,
 "name": "naranja",
 "speed": 5.0
@@ -21,14 +27,14 @@ animations = [ {
 
 [sub_resource type="DynamicFont" id=4]
 size = 80
-font_data = ExtResource( 3 )
+font_data = ExtResource( 4 )
 
 [sub_resource type="CircleShape2D" id=5]
-radius = 300.291
+radius = 301.315
 
 [sub_resource type="SpriteFrames" id=6]
 animations = [ {
-"frames": [ ExtResource( 4 ) ],
+"frames": [ ExtResource( 5 ) ],
 "loop": true,
 "name": "azul",
 "speed": 5.0
@@ -36,13 +42,13 @@ animations = [ {
 
 [sub_resource type="DynamicFont" id=7]
 size = 90
-font_data = ExtResource( 3 )
+font_data = ExtResource( 4 )
 
 [sub_resource type="CircleShape2D" id=8]
 radius = 396.596
 
 [node name="Balloons" type="RigidBody2D"]
-gravity_scale = 0.0
+gravity_scale = -1.0
 script = ExtResource( 1 )
 __meta__ = {
 "_edit_horizontal_guides_": [  ]
@@ -100,6 +106,6 @@ autowrap = true
 position = Vector2( -9.1687, -34.4657 )
 shape = SubResource( 8 )
 
-[connection signal="draw" from="." to="." method="_on_Balloons_draw"]
+[connection signal="input_event" from="." to="." method="_on_Balloons_input_event"]
 [connection signal="input_event" from="AnimatedSpriteES/Area2DES" to="." method="_on_Area2DES_input_event"]
 [connection signal="input_event" from="AnimatedSpriteEN/Area2DEN" to="." method="_on_Area2DEN_input_event"]

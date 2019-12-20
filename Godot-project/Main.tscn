@@ -1,11 +1,32 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=10 format=2]
 
 [ext_resource path="res://Main.gd" type="Script" id=1]
+[ext_resource path="res://StaticBody2D.gd" type="Script" id=2]
+[ext_resource path="res://Poppins-Medium.ttf" type="DynamicFontData" id=3]
 
 [sub_resource type="Curve2D" id=1]
 _data = {
-"points": PoolVector2Array( 0, 0, 0, 0, 0.561279, 1.12883, 0, 0, 0, 0, 596.293, 4.51355, 0, 0, 0, 0, 600.394, 904.702, 0, 0, 0, 0, -0.414764, 906.753, 0, 0, 0, 0, -0.414764, 0.412468, 0, 0, 0, 0, -2.46533, 2.46301, 0, 0, 0, 0, -0.414764, 0.412468 )
+"points": PoolVector2Array( 0, 0, 0, 0, 0.561279, 1.12883, 0, 0, 0, 0, 659.761, 5.90698, 0, 0, 0, 0, 663.366, 964.846, 0, 0, 0, 0, 3.64545, 964.846, 0, 0, 0, 0, -0.414764, 0.412468, 0, 0, 0, 0, -2.46533, 2.46301, 0, 0, 0, 0, -0.414764, 0.412468 )
 }
+
+[sub_resource type="RectangleShape2D" id=2]
+extents = Vector2( 330.808, 50.4358 )
+
+[sub_resource type="DynamicFont" id=3]
+size = 31
+font_data = ExtResource( 3 )
+
+[sub_resource type="DynamicFont" id=4]
+size = 31
+font_data = ExtResource( 3 )
+
+[sub_resource type="DynamicFont" id=5]
+size = 60
+font_data = ExtResource( 3 )
+
+[sub_resource type="DynamicFont" id=6]
+size = 34
+font_data = ExtResource( 3 )
 
 [node name="Main" type="Node"]
 script = ExtResource( 1 )
@@ -13,17 +34,67 @@ script = ExtResource( 1 )
 [node name="BalloonsTimer" type="Timer" parent="."]
 wait_time = 0.5
 
-[node name="ScoreTImer" type="Timer" parent="."]
-
 [node name="path" type="Path2D" parent="."]
+editor/display_folded = true
+self_modulate = Color( 0.501961, 0.6, 1, 0.701961 )
+light_mask = 0
 curve = SubResource( 1 )
 
 [node name="pathSpawn" type="PathFollow2D" parent="path"]
 position = Vector2( 0.561279, 1.12883 )
-rotation = 0.0056816
+rotation = 0.00724833
 
 [node name="StartTimer" type="Timer" parent="."]
 
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+script = ExtResource( 2 )
+
+[node name="top" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="top"]
+position = Vector2( 326.123, 53.8536 )
+shape = SubResource( 2 )
+
+[node name="ScoreTImer" type="Timer" parent="top"]
+
+[node name="LabelTimer" type="Label" parent="top"]
+margin_left = 59.6769
+margin_top = 19.3231
+margin_right = 281.677
+margin_bottom = 90.3232
+custom_fonts/font = SubResource( 3 )
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+text = "Tiempo: 30"
+align = 1
+valign = 1
+
+[node name="LabelScore" type="Label" parent="top"]
+margin_left = 455.727
+margin_top = 19.323
+margin_right = 598.727
+margin_bottom = 83.323
+custom_fonts/font = SubResource( 4 )
+custom_colors/font_outline_modulate = Color( 0, 0, 0, 1 )
+text = "Score: 0"
+align = 1
+valign = 1
+
+[node name="Label" type="Label" parent="."]
+margin_left = 109.0
+margin_top = 261.0
+margin_right = 568.0
+margin_bottom = 439.0
+custom_fonts/font = SubResource( 5 )
+
+[node name="Button" type="Button" parent="."]
+visible = false
+margin_left = 191.032
+margin_top = 469.432
+margin_right = 479.032
+margin_bottom = 618.432
+custom_fonts/font = SubResource( 6 )
+text = "Jugar de nuevo"
+
 [connection signal="timeout" from="BalloonsTimer" to="." method="_on_BalloonsTimer_timeout"]
-[connection signal="timeout" from="ScoreTImer" to="." method="_on_ScoreTImer_timeout"]
 [connection signal="timeout" from="StartTimer" to="." method="_on_StartTimer_timeout"]
+[connection signal="timeout" from="top/ScoreTImer" to="." method="_on_ScoreTImer_timeout"]
